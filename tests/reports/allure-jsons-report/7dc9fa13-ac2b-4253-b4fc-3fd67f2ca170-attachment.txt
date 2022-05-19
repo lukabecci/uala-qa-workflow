@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/lucabecci/PycharmProjects/uala-onboarding-cross-luca/models/models.py", line 18, in generate_model
+    id = item["id"]["S"]
+KeyError: 'id'

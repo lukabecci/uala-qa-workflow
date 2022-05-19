@@ -15,9 +15,9 @@ class UserModel(json.JSONEncoder):
     @classmethod
     def generate_model(cls, item):
         try:
-            id = item["id"]["S"]
-            firstname = item["firstname"]["S"]
-            lastname = item["lastname"]["S"]
+            id = item["Id"]
+            firstname = item["Firstname"]
+            lastname = item["Lastname"]
             return cls(id, firstname, lastname)
         except KeyError:
             traceback.print_exc()

@@ -420,7 +420,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>pytest-html-report.html</h1>
-    <p>Report generated on 19-May-2022 at 13:11:33 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 19-May-2022 at 13:11:44 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -436,8 +436,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.10.4</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 1.64 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>12 tests ran in 7.02 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">12 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -451,8 +451,115 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_1_easytest.py::test_de_prueba</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_2_get.py::TestApiUser::test_verify_username</td>
+          <td class="col-duration">0.76</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>{&#x27;Id&#x27;: &#x27;MATI_ID&#x27;, &#x27;Firstname&#x27;: &#x27;viernes&#x27;, &#x27;Lastname&#x27;: &#x27;13&#x27;, &#x27;Status&#x27;: &#x27;PROCESSED&#x27;}
+200
+&lt;Response [200]&gt;
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_3_modelsGet.py::TestApiUser::test_get_sin_model</td>
+          <td class="col-duration">0.72</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>&lt;Response [200]&gt;
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_3_modelsGet.py::TestApiUser::test_con_models</td>
+          <td class="col-duration">0.75</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_4_postapi.py::TestApiUser::test_post_user</td>
+          <td class="col-duration">0.86</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_5_fixture.py::Tests::test_fixture_body_success</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>the id saved is {52295651 santi amorin CREATED}
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_5_fixture.py::Tests::test_fixture_body_userId</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>the id saved is {79351156 santi amorin CREATED}
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
           <td class="col-name">tests/test_6_dynamoinvoker.py::TestApiUser::test_dynamo</td>
-          <td class="col-duration">1.58</td>
+          <td class="col-duration">1.43</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_7_lambdainvoker.py::Test_Invokers::test_lambda_invoker</td>
+          <td class="col-duration">0.94</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>{&#x27;ResponseMetadata&#x27;: {&#x27;RequestId&#x27;: &#x27;f391ae5b-e600-447f-834b-58d5847a239b&#x27;, &#x27;HTTPStatusCode&#x27;: 200, &#x27;HTTPHeaders&#x27;: {&#x27;date&#x27;: &#x27;Thu, 19 May 2022 16:11:44 GMT&#x27;, &#x27;content-type&#x27;: &#x27;application/json&#x27;, &#x27;content-length&#x27;: &#x27;80&#x27;, &#x27;connection&#x27;: &#x27;keep-alive&#x27;, &#x27;x-amzn-requestid&#x27;: &#x27;f391ae5b-e600-447f-834b-58d5847a239b&#x27;, &#x27;x-amzn-remapped-content-length&#x27;: &#x27;0&#x27;, &#x27;x-amz-executed-version&#x27;: &#x27;$LATEST&#x27;, &#x27;x-amz-log-result&#x27;: &#x27;U1RBUlQgUmVxdWVzdElkOiBmMzkxYWU1Yi1lNjAwLTQ0N2YtODM0Yi01OGQ1ODQ3YTIzOWIgVmVyc2lvbjogJExBVEVTVApFTkQgUmVxdWVzdElkOiBmMzkxYWU1Yi1lNjAwLTQ0N2YtODM0Yi01OGQ1ODQ3YTIzOWIKUkVQT1JUIFJlcXVlc3RJZDogZjM5MWFlNWItZTYwMC00NDdmLTgzNGItNThkNTg0N2EyMzliCUR1cmF0aW9uOiA0LjgxIG1zCUJpbGxlZCBEdXJhdGlvbjogNSBtcwlNZW1vcnkgU2l6ZTogNTEyIE1CCU1heCBNZW1vcnkgVXNlZDogNDMgTUIJCg==&#x27;, &#x27;x-amzn-trace-id&#x27;: &#x27;root=1-62866c40-66bc5f5d06ce92184200c9b3;sampled=0&#x27;}, &#x27;RetryAttempts&#x27;: 0}, &#x27;StatusCode&#x27;: 200, &#x27;LogResult&#x27;: &#x27;U1RBUlQgUmVxdWVzdElkOiBmMzkxYWU1Yi1lNjAwLTQ0N2YtODM0Yi01OGQ1ODQ3YTIzOWIgVmVyc2lvbjogJExBVEVTVApFTkQgUmVxdWVzdElkOiBmMzkxYWU1Yi1lNjAwLTQ0N2YtODM0Yi01OGQ1ODQ3YTIzOWIKUkVQT1JUIFJlcXVlc3RJZDogZjM5MWFlNWItZTYwMC00NDdmLTgzNGItNThkNTg0N2EyMzliCUR1cmF0aW9uOiA0LjgxIG1zCUJpbGxlZCBEdXJhdGlvbjogNSBtcwlNZW1vcnkgU2l6ZTogNTEyIE1CCU1heCBNZW1vcnkgVXNlZDogNDMgTUIJCg==&#x27;, &#x27;ExecutedVersion&#x27;: &#x27;$LATEST&#x27;, &#x27;Payload&#x27;: &lt;botocore.response.StreamingBody object at 0x104ce2e00&gt;}
+&quot;the id saved is {LeoLambda calle falsa 123 testuser123987@uala.com.ar CREATED}&quot;
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_8_allure.py::TestReports::test_1</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_8_allure.py::TestReports::test_2</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_8_allure.py::TestReports::test_3</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
