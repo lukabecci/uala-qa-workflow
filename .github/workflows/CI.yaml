@@ -2,7 +2,7 @@ name: ci_workflow_template
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
